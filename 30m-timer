@@ -14,4 +14,5 @@
   systemctl suspend
 } &
 
-
+sleep 1s
+exit
