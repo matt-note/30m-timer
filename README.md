@@ -18,7 +18,7 @@ timer ディレクトリは、 $HOME ディレクトリに置くことにして�
 * sudo apt install mpv
 * cp timer/ $HOME
 * chmod +x 30m-timer
-* sudo cp 30m-timer /usr/local/bin
+* sudo cp -r 30m-timer /usr/local/bin
 * 30m-timer
 
 ## 参考
