@@ -21,5 +21,12 @@ timer ディレクトリは、 $HOME ディレクトリに置くことにして�
 * sudo cp 30m-timer /usr/local/bin
 * 30m-timer
 
+## その他
+プロセスの確認は、以下のコマンドで動作していることがわかる。
+* ps -a | grep timer
+
+途中で停止させる場合は、プロセスID を指定して kill する。
+* kill 22712
+
 ## 参考
 * 音: [効果音ラボ](https://soundeffect-lab.info/)
