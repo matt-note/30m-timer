@@ -16,9 +16,9 @@ timer ディレクトリに音声ファイルがあります。
 timer ディレクトリは、 $HOME ディレクトリに置くことにしています。
 
 * sudo apt install mpv
-* cp timer/ $HOME
+* cp -r timer/ $HOME
 * chmod +x 30m-timer
-* sudo cp -r 30m-timer /usr/local/bin
+* sudo cp 30m-timer /usr/local/bin
 * 30m-timer
 
 ## 参考
