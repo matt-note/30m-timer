@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# 参考: https://qiita.com/inosy22/items/341cfc589494b8211844
+
+{
+  mpv --no-video ~/timer/start.mp3
+  wait 
+
+  sleep 29m 
+  mpv --no-video ~/timer/end.mp3
+  wait
+
+  sleep 1m
+  systemctl suspend
+} &
+
+
